@@ -4,8 +4,8 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Cache
-Summary:	Cache - the Cache interface
-#Summary(pl):	
+Summary:	Cache - the cache interface
+Summary(pl):	Cache - interfejs buforuj±cy
 Name:		perl-Cache
 Version:	2.02
 Release:	1
@@ -30,13 +30,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The Cache modules are designed to assist a developer in persisting data for a
-specified period of time.  Often these modules are used in web applications to
-store data locally to save repeated and redundant expensive calls to remote
-machines or databases.
+The Cache modules are designed to assist a developer in persisting
+data for a specified period of time. Often these modules are used in
+web applications to store data locally to save repeated and redundant
+expensive calls to remote machines or databases.
 
-The Cache interface is implemented by derived classes that store cached data
-in different manners (such as as files on a filesystem, or in memory).
+The Cache interface is implemented by derived classes that store
+cached data in different manners (such as as files on a filesystem, or
+in memory).
 
 # %description -l pl
 # TODO

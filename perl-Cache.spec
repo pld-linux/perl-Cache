@@ -36,11 +36,19 @@ web applications to store data locally to save repeated and redundant
 expensive calls to remote machines or databases.
 
 The Cache interface is implemented by derived classes that store
-cached data in different manners (such as as files on a filesystem, or
-in memory).
+cached data in different manners (such as files on a filesystem, or in
+memory).
 
-# %description -l pl
-# TODO
+%description -l pl
+Modu³y Cache s± zaprojektowane, aby pomagaæ programistom w
+przechowywaniu danych przez okre¶lony okres czasu. Zwykle modu³y te s±
+u¿ywane w aplikacjach WWW do lokalnego przechowywania danych w celu
+zaoszczêdzenia powtarzaj±cych siê i nadmiarowych drogich wywo³añ do
+zdalnych maszyn lub baz danych.
+
+Interfejs Cache jest zaimplementowany poprzez klasy dziedzicz±ce
+przechowuj±ce buforowane dane na ró¿ne sposoby (np. w plikach albo w
+pamiêci).
 
 %prep
 %setup -q -n %{pdir}-%{version}

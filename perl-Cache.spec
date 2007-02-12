@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Cache
 Summary:	Cache - the cache interface
-Summary(pl):	Cache - interfejs buforuj±cy
+Summary(pl.UTF-8):   Cache - interfejs buforujÄ…cy
 Name:		perl-Cache
 Version:	2.04
 Release:	1
@@ -39,16 +39,16 @@ The Cache interface is implemented by derived classes that store
 cached data in different manners (such as files on a filesystem, or in
 memory).
 
-%description -l pl
-Modu³y Cache s± zaprojektowane, aby pomagaæ programistom w
-przechowywaniu danych przez okre¶lony okres czasu. Zwykle modu³y te s±
-u¿ywane w aplikacjach WWW do lokalnego przechowywania danych w celu
-zaoszczêdzenia powtarzaj±cych siê i nadmiarowych drogich wywo³añ do
+%description -l pl.UTF-8
+ModuÅ‚y Cache sÄ… zaprojektowane, aby pomagaÄ‡ programistom w
+przechowywaniu danych przez okreÅ›lony okres czasu. Zwykle moduÅ‚y te sÄ…
+uÅ¼ywane w aplikacjach WWW do lokalnego przechowywania danych w celu
+zaoszczÄ™dzenia powtarzajÄ…cych siÄ™ i nadmiarowych drogich wywoÅ‚aÅ„ do
 zdalnych maszyn lub baz danych.
 
-Interfejs Cache jest zaimplementowany poprzez klasy dziedzicz±ce
-przechowuj±ce buforowane dane na ró¿ne sposoby (np. w plikach albo w
-pamiêci).
+Interfejs Cache jest zaimplementowany poprzez klasy dziedziczÄ…ce
+przechowujÄ…ce buforowane dane na rÃ³Å¼ne sposoby (np. w plikach albo w
+pamiÄ™ci).
 
 %prep
 %setup -q -n %{pdir}-%{version}

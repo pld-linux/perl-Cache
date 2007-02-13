@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Cache
 Summary:	Cache - the cache interface
-Summary(pl.UTF-8):   Cache - interfejs buforujący
+Summary(pl.UTF-8):	Cache - interfejs buforujący
 Name:		perl-Cache
 Version:	2.04
 Release:	1

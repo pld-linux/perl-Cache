@@ -1,9 +1,9 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Cache
+%include	/usr/lib/rpm/macros.perl
 Summary:	Cache - the cache interface
 Summary(pl.UTF-8):	Cache - interfejs buforujący
 Name:		perl-Cache
@@ -14,6 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{version}.tar.gz
 # Source0-md5:	c64b8dd8f04e101bd20cde0c7c2e3d17
+URL:		http://search.cpan.org/dist/Cache/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}

@@ -3,7 +3,6 @@
 %bcond_without	tests		# do not perform "make test"
 
 %define	pdir	Cache
-%include	/usr/lib/rpm/macros.perl
 Summary:	Cache - the cache interface
 Summary(pl.UTF-8):	Cache - interfejs buforujący
 Name:		perl-Cache

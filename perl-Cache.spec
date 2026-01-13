@@ -7,7 +7,7 @@ Summary:	Cache - the cache interface
 Summary(pl.UTF-8):	Cache - interfejs buforujący
 Name:		perl-Cache
 Version:	2.04
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
